@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
+.PokeApiLogo {
+  height: 64px;
+  width: 160px;
+}
