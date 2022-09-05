@@ -14,19 +14,19 @@
 }
 
 @media screen and (max-width: 992px) {
-  .pokedex-grid {
+  .pokedexGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 600px) {
-  .pokedex-grid {
+  .pokedexGrid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media screen and (max-width: 400px) {
-  .pokedex-grid{
+  .pokedexGrid{
     grid-template-columns: repeat(1, 1fr);
   }
 }
