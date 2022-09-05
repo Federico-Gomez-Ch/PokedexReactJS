@@ -4,6 +4,7 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import Pokedex from "./components/Pokedex/Pokedex";
 import { getPokemonData, getPokemons, searchPokemon } from "./pokeApi";
 import { FavoriteProvider } from "./contexts/favoritesContext";
+import Footer from "./components/Footer/Footer";
 import "./App.css"
 
 const { useState, useEffect } = React;
@@ -108,6 +109,7 @@ export default function App() {
           />
           )}
         </div>
+        <Footer/>
       </div>
     </FavoriteProvider>
   );
